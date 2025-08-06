@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antojitos Cakes Express - Repostería Artesanal Premium</title>
+    <meta name="description" content="Descubre los mejores postres artesanales en Antojitos Cakes Express. Tortas, cupcakes, cheesecakes y más, elaborados con amor y los mejores ingredientes.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Partículas flotantes -->
+    <div class="floating-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="ANTOJITOS CAKES EXPRESS - LOGO-06.png" alt="Antojitos Cakes Express Logo" class="logo-image">
+                    <div class="logo-text">
+                        <h1>Antojitos Cakes Express</h1>
+                        <p>Repostería Artesanal Premium</p>
+                    </div>
+                </div>
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link active">Inicio</a>
+                    <a href="productos.html" class="nav-link">Productos</a>
+                    <button class="theme-toggle" id="themeToggle" data-tooltip="Cambiar tema">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <button class="theme-toggle tooltip" id="mobileThemeToggle" data-tooltip="Cambiar tema">
+                <i class="fas fa-moon" id="mobileThemeIcon"></i>
+            </button>
+            <button class="mobile-menu-close" id="mobileMenuClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="index.html" class="mobile-nav-link">Inicio</a>
+            <a href="productos.html" class="mobile-nav-link">Productos</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">
+                    Dulces Momentos,
+                    <span class="gradient-text sparkle">Sabores Únicos</span>
+                </h2>
+                <p class="hero-subtitle" id="heroSubtitle">
+                    <!-- El texto se insertará aquí con el efecto typing -->
+                </p>
+                <div class="hero-buttons">
+                    <a href="productos.html" class="btn btn-outline">Descubrir Nuestros Productos</a>
+                    <a href="#contacto" class="btn btn-outline">Contactar Ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="section-header">
+                    <h3 class="section-title">Nuestra Historia</h3>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">
+                        Una tradición familiar que se ha convertido en la referencia de la repostería artesanal premium
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="about-paragraph">
+                            <strong>Antojitos Cakes Express</strong> nació del amor incondicional por la repostería y la pasión por crear momentos dulces e inolvidables. Somos una repostería artesanal familiar que se dedica a elaborar postres únicos y premium con ingredientes de la más alta calidad internacional.
+                        </p>
+                        <p class="about-paragraph">
+                            Cada uno de nuestros productos es elaborado con dedicación absoluta, cariño genuino y técnicas tradicionales que hemos perfeccionado y elevado a lo largo de los años. Desde tortas personalizadas hasta pequeños bocadillos dulces gourmet, cada creación cuenta una historia única y especial.
+                        </p>
+                        <p class="about-paragraph">
+                            Nuestro compromiso inquebrantable es brindar no solo sabores excepcionales y experiencias sensoriales únicas, sino también momentos que perduren en la memoria de nuestros clientes, convirtiendo cada celebración en un evento verdaderamente mágico y especial.
+                        </p>
+
+                        <div class="about-highlight">
+                            <i class="fas fa-heart"></i>
+                            <span>Creando dulces memorias desde 2018</span>
+                        </div>
+                    </div>
+
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=500&fit=crop&crop=center" alt="Interior premium de Antojitos Cakes Express" class="image-hover-effect">
+                            <div class="image-decoration"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-content">
+                <div class="section-header">
+                    <h3 class="section-title">¿Por Qué Somos Únicos?</h3>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">
+                        Descubre los elementos distintivos que nos posicionan como líderes en repostería artesanal premium y por qué nuestros clientes nos eligen para sus momentos más dulces y especiales
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">
+                            <span>🍰</span>
+                        </div>
+                        <h4 class="feature-title">Ingredientes Premium Selectos</h4>
+                        <p class="feature-description">
+                            Utilizamos exclusivamente los mejores ingredientes premium, frescos y de origen natural seleccionados cuidadosamente para garantizar sabores auténticos y experiencias sensoriales excepcionales
+                        </p>
+                    </div>
+
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">
+                            <span>👩‍🍳</span>
+                        </div>
+                        <h4 class="feature-title">Elaboración Artesanal Experta</h4>
+                        <p class="feature-description">
+                            Cada producto es elaborado completamente a mano por maestros reposteros con técnicas tradicionales perfeccionadas y el cuidado meticuloso que solo el trabajo artesanal experto puede ofrecer
+                        </p>
+                    </div>
+
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">
+                            <span>🎂</span>
+                        </div>
+                        <h4 class="feature-title">Personalización Total Premium</h4>
+                        <p class="feature-description">
+                            Adaptamos completamente nuestros productos a tus gustos únicos y necesidades especiales más exigentes para hacer realidad tus ideas más dulces y creativas con resultados excepcionales
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <div class="contact-content">
+                <div class="section-header">
+                    <h3 class="section-title">Visítanos y Conócenos</h3>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">
+                        Te esperamos en nuestro acogedor espacio donde podrás disfrutar de nuestros productos y vivir la experiencia Antojitos Cakes Express
+                    </p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <h4 class="contact-title">Nuestra Ubicación</h4>
+                        <p class="contact-text">
+                            Avenida Principal #123<br>
+                            Centro Comercial Plaza Dulce<br>
+                            Local 45-B, Caracas
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <h4 class="contact-title">Contáctanos</h4>
+                        <p class="contact-text">
+                            +58 414-123-4567<br>
+                            +58 212-987-6543<br>
+                            info@antojitoscakes.com
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock contact-icon"></i>
+                        <h4 class="contact-title">Horarios de Atención</h4>
+                        <p class="contact-text">
+                            Lunes - Sábado: 8:00 AM - 8:00 PM<br>
+                            Domingo: 9:00 AM - 6:00 PM<br>
+                            <small>Pedidos especiales 24/7</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="ANTOJITOS CAKES EXPRESS - LOGO-06.png" alt="Antojitos Cakes Express Logo" class="logo-image">
+                    <div class="logo-text">
+                        <h5>Antojitos Cakes Express</h5>
+                        <p>Repostería Artesanal Premium</p>
+                    </div>
+                </div>
+                <div class="footer-text">
+                    <p>© 2024 Antojitos Cakes Express. Todos los derechos reservados. | Endulzando vidas desde 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

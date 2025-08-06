@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Premium - Antojitos Cakes Express</title>
+    <meta name="description" content="Explora nuestra exclusiva colección de postres artesanales premium: tortas, cupcakes, cheesecakes, macarons y más delicias únicas.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Partículas flotantes -->
+    <div class="floating-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="ANTOJITOS CAKES EXPRESS - LOGO-06.png" alt="Antojitos Cakes Express Logo" class="logo-image">
+                    <div class="logo-text">
+                        <h1>Antojitos Cakes Express</h1>
+                        <p>Repostería Artesanal Premium</p>
+                    </div>
+                </div>
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="productos.html" class="nav-link active">Productos</a>
+                    <button class="theme-toggle tooltip" id="themeToggle" data-tooltip="Cambiar tema">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <button class="theme-toggle tooltip" id="mobileThemeToggle" data-tooltip="Cambiar tema">
+                <i class="fas fa-moon" id="mobileThemeIcon"></i>
+            </button>
+            <button class="mobile-menu-close" id="mobileMenuClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="index.html" class="mobile-nav-link">Inicio</a>
+            <a href="productos.html" class="mobile-nav-link">Productos</a>
+        </nav>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <a href="index.html" class="breadcrumb-link">
+                    <i class="fas fa-arrow-left"></i>
+                    Inicio
+                </a>
+                <span class="breadcrumb-separator">/</span>
+                <span class="breadcrumb-current">Productos Premium</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h2 class="page-title">Colección Premium</h2>
+                <p class="page-subtitle">
+                    Descubre nuestra exquisita selección de postres artesanales premium, elaborados con amor, dedicación y los mejores ingredientes seleccionados especialmente para crear experiencias únicas e inolvidables
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    id="searchInput" 
+                    placeholder="Buscar productos por nombre, categoría o ingredientes..."
+                    autocomplete="off"
+                >
+                <button class="search-button" id="searchButton">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <div class="filters-section">
+        <div class="container">
+            <div class="filters-content" id="filtersContent">
+                <!-- Los filtros se generan dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="productsGrid">
+                <!-- Los productos se generan dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- El contenido del modal se genera dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="ANTOJITOS CAKES EXPRESS - LOGO-06.png" alt="Antojitos Cakes Express Logo" class="logo-image">
+                    <div class="logo-text">
+                        <h5>Antojitos Cakes Express</h5>
+                        <p>Repostería Artesanal Premium</p>
+                    </div>
+                </div>
+                <div class="footer-text">
+                    <p>© 2024 Antojitos Cakes Express. Todos los derechos reservados. | Endulzando vidas desde 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="productos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
