@@ -20,8 +20,8 @@ const productos = [
     precio: 32,
     categoria: "Tortas",
     imagenes: [
-      "\\assets\\images\\Productos\\Tortas\\3 leche natural.png",
-      "\\assets\\images\\Productos\\Tortas\\3 leche natural2.png",
+      "/assets/images/Productos/Tortas/3 leche natural.png",
+      "/assets/images/Productos/Tortas/3 leche natural2.png",
     ],
     recomendado: true,
     detalles:
@@ -35,8 +35,8 @@ const productos = [
     precio: 20,
     categoria: "Tortas",
     imagenes: [
-      "\\assets\\images\\Productos\\Tortas\\Choco fresa.png",
-      "\\assets\\images\\Productos\\Tortas\\Arequipefresa.png",
+      "/assets/images/Productos/Tortas/Choco fresa.png",
+      "/assets/images/Productos/Tortas/Arequipefresa.png",
     ],
     recomendado: true,
     detalles:
