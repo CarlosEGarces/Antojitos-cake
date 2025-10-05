@@ -4,9 +4,11 @@ const CATEGORIAS_DISPONIBLES = [
   "Buttercream", 
   "Brownies",
   "Cheesecakes",
-  "Cupcakes",        
-  "Postres Fríos",   
-  "Galletas",        
+  "Cupcakes",           
+  "Galletas", 
+  "Gelatina",      
+  "Pies", 
+  "Quesillos",
 ]
 
 
@@ -112,7 +114,7 @@ tamaño: `8 porciones 22$
     imagenes: [
       "assets\\images\\Productos\\Tortas\\Cheese cake.png",
     ],
-    recomendado: true,
+    
     detalles:
       "Auténtico cheesecake cremoso y suave con base de galleta, cubierto con deliciosa compota de frutos rojos y decorado con fresas frescas y crema chantilly.",
     tamaño: "15 porciones",
@@ -122,15 +124,131 @@ tamaño: `8 porciones 22$
     nombre: "Flor de otoño",
     descripcion: "Bizcocho húmedo relleno de crema pastelera y quesillo, decorado con topping de arequipe",
     precio: 40,
-    categoria: "Cheesecakes",
+    categoria: "Tortas",
     imagenes: [
       "assets\\images\\Productos\\Tortas\\Flor de otoño.png",
       "assets\\images\\Productos\\Tortas\\Flor de otoño2.png"
     ],
-    recomendado: true,
+    
     detalles:
       "Bizcocho húmedo relleno de crema pastelera y quesillo, decorado con topping de arequipe.",
   tamaño: "Mini 4 porciones 16$, Mediana 8 porciones 22$, Grande 15 porciones 35$, Flor de 30 porciones 70$",
+}, 
+{
+    id: 9,
+    nombre: "Frutal de chantilly",
+    descripcion: "Bizcocho húmedo relleno de crema pastelera, Chantilly y frutas de la estación.",
+    precio: 20,
+    categoria: "Tortas",
+    imagenes: [
+      "assets\\images\\Productos\\Tortas\\Frutal de chantilly.png",
+      "assets\\images\\Productos\\Tortas\\Frutal de chantilly2.png"
+    ],
+    
+    detalles:
+      "Bizcocho húmedo relleno de crema pastelera, Chantilly y frutas de la estación.",
+  tamaño: "4 porciones 20$ 8 porciones 30$ 15 porciones 50$",
+},
+{
+    id: 10,
+    nombre: "Gelatina",
+    descripcion: "Deliciosa gelatina de colores y sabores variados.",
+    precio: 20,
+    categoria: "Gelatina",
+    imagenes: [
+      "assets\\images\\Productos\\Tortas\\Gelatina.png",
+    ],
+    
+    detalles:
+      "Deliciosa gelatina de colores y sabores variados.",
+  tamaño: "por añadir",
+},
+{
+    id: 11,
+    nombre: "Marmoleadita",
+    descripcion: "Ponque esponjoso, marmoleada con betas de chocolate, no relleno.",
+    precio: 20,
+    categoria: "Tortas",
+    imagenes: [
+      "assets\\images\\Productos\\Tortas\\Marmoleadita.png",
+      "assets\\images\\Productos\\Tortas\\Marmoleadita2.png"
+    ],
+    
+    detalles:
+      "Ponque esponjoso, marmoleada con betas de chocolate, no relleno.Puede ser 🎂Marmoleada con arequipe, 🎂Marmoleada con chocolate 🎂semindesnuda con deliciosas trufas ",
+  tamaño: "8 porciones en 18$ 12 porciones 24$ 20 porciones 38$ (previo encargo) 30 porciones 54$ ( previo encargo) 40 porciones 70$ ( previo encargo) ",
+},
+{
+    id: 12,
+    nombre: "Nutellina",
+    descripcion: "Bizcocho húmedo con toque licor avellanado, rellena y cubierta con. Crema de avellana y el más deliciosos crocante de praline al almendra ",
+    precio: 20,
+    categoria: "Tortas",
+    imagenes: [
+      "assets\\images\\Productos\\Tortas\\Nutellina.png",
+      "assets\\images\\Productos\\Tortas\\Nutellina2.png"
+    ],
+    recomendado: true,
+    detalles:
+      "Bizcocho húmedo con toque licor avellanado, rellena y cubierta con. Crema de avellana y el más deliciosos crocante de praline al almendra ",
+  tamaño: "4 porciones 20$ 8 porciones 30$ 15 porciones 50$",
+},
+{
+    id: 13,
+    nombre: "Oreolate",
+    descripcion: "Deliciosa torta de chocolate humedecida con un toque de licor.",
+    precio: 28,
+    categoria: "Tortas",
+    imagenes: [
+      "assets\\images\\Productos\\Tortas\\Oreolate1.png",
+      "assets\\images\\Productos\\Tortas\\Oreolate2.png"
+    ],
+    recomendado: true,
+    detalles:
+      "Deliciosa torta de chocolate humedecida con un toque de licor. Rellena de crema de chocolate, oreos y gotas de chocolate.",
+  tamaño: "8 porciones 28$ 15 porciones 38$",
+},
+{
+    id: 14,
+    nombre: "Pie de limon o Pie de parchita",
+    descripcion: "Base de galleta con suave crema de limón o parchita.",
+    precio: 35,
+    categoria: "Pies",
+    imagenes: [
+      "assets\\images\\Productos\\Tortas\\Pie de limon.png"
+    ],
+    recomendado: true,
+    detalles:
+      "Delicioso pie con base de galleta y relleno cremoso de limón o parchita, decorado con merengue.",
+    tamaño: "Pie de limón grande 35$ Pie de limón mediano 30$",
+},
+{
+    id: 15,
+    nombre: "Quesillo",
+    descripcion: "Quesillo cremoso",
+    precio: 35,
+    categoria: "Quesillos",
+    imagenes: [
+      "assets\\images\\Productos\\Tortas\\Quesillo.png"
+    ],
+  
+    detalles:
+      "Quesillo cremoso",
+    tamaño: "15 porciones 34$",
+},
+{
+    id: 16,
+    nombre: "Red Velvet",
+    descripcion: "Torta red velvet",
+    precio: 40,
+    categoria: "Tortas",
+    imagenes: [
+      "assets\\images\\Productos\\Tortas\\Red velvet.png"
+    ],
+  
+    detalles:
+      "Torta red velvet con relleno de crema",
+    tamaño: "10 porciones 40$ 20 porciones 60$",
 },
 ]
 
